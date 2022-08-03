@@ -44,7 +44,7 @@ test -f ~/.zshrc && cp -v .zshrc .zshrc_backup && echo "export GOPATH=\$HOME/go"
 
 if test -f ~/.bashrc
 then
-	. ~/bashrc
+	. ~/.bashrc
 fi
 
 if test -f ~/.zshrc
